@@ -18,7 +18,7 @@ const SideBar = () => {
     <AsideContainer>
       <ProfileContainer>
         <Image
-          src="/assets/Profile.jpg"
+          src="/Profile.jpg"
           alt="Profile"
           fill
           style={{ objectFit: "cover" }}

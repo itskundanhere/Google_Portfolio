@@ -32,8 +32,9 @@ const Home = () => {
           <MobileHeading>{info.mobileHeading}</MobileHeading>
           <Text>{info.description}</Text>
           <MobileProfile>
+            
             <Image
-              src="/assets/Profile.png"
+              src="/Profile.jpg"
               alt="Profile"
               fill
               style={{ objectFit: "cover" }}
