@@ -2,13 +2,13 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { BiPencil } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiPhoneCall } from "react-icons/bi";
-import { MdOutlineLocationOn } from "react-icons/md";
+import { MdOutlineLocationOn, MdSchool } from "react-icons/md";
 import { calculateExperience } from "../helpers/getExperience";
 import { GrMail } from "react-icons/gr";
 import { BsFillPhoneFill } from "react-icons/bs";
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { BiLinkAlt } from "react-icons/bi";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaSchool } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -26,6 +26,12 @@ export const navBar = [
     name: "About",
     path: "/",
     icon: AiOutlineSearch,
+  },
+  {
+    name: "Education",
+    path: "/education",
+    icon: MdSchool,
+
   },
   {
     name: "Skills",
@@ -57,31 +63,26 @@ export const info = {
   workExperience: "Work Experience",
   companies: [
     {
-      designation: "Software Engineer",
-      name: "Microsoft",
-      timePeriod: "04/2023 - Present",
+      designation: "Trainee (Internship)",
+      name: "Solid State Physics Laboratory (DRDO)",
+      timePeriod: "March, 2025 - May, 2025",
       workProjects: [
         {
-          title: "Healthcare & Life Sciences AI Platform :",
+          title: "Networked & Embedded Systems Optimization:",
           description:
-            "Contributing to the development of Dragon Copilot, an AI-powered solution designed to support nurses by reducing burnout, improving documentation quality, and enhancing the overall patient experience.",
+            "Contributed to the design and optimization of high-performance video amplifier circuits, achieving a 15% latency reduction through advanced signal-processing techniques. Enhanced embedded system performance by 20% using hardware/software co-design, showcasing strong debugging and system-level optimization capabilities.",
         },
       ],
     },
     {
-      designation: "Software Engineer",
-      name: "LTIMindtree",
-      timePeriod: "03/2021 - 04/2023",
+      designation: "Jr. Flutter Developer",
+      name: "DigitalDose",
+      timePeriod: "Oct, 2024 - Jan, 2025",
       workProjects: [
         {
-          title: "DHRE RealConnect :",
+          title: "Scalable Cross-Platform Mobile Application:",
           description:
-            "Developed a web application for Dubai Holding Real Estate from scratch as a frontend developer, Technologies used : <b>React Js</b>, <b>Redux-thunk</b>, <b>Tailwind CSS</b>, <b>Axios</b>, <b>React-hook-form</b> and <b>Yup</b>.",
-        },
-        {
-          title: "Informa Pharma Intelligence :",
-          description:
-            "Responsible for the logical part of frontend development such as API integration, Implementation of new features, Reusable components, and Bug fixes, Technologies used : <b>React Js</b>, <b>Redux-saga</b>, <b>Redux-toolkit</b>, <b>Sass</b>, <b>Material Ui</b>, <b>Axios</b>, <b>Ag-grid-react</b>, <b>Formik</b> and <b>Yup</b>.",
+            "Built a robust cross-platform mobile app using Flutter with a Firebase backend, applying GetX state management and OOP principles to ensure modular, maintainable, and scalable architecture. Achieved a 30% reduction in load time by optimizing data synchronization and API performance for a smoother user experience. : <b>Dart</b>, <b>Flutter</b>, <b>Firebase</b>, <b>GetX</b>.",
         },
       ],
     },
@@ -90,7 +91,7 @@ export const info = {
 
 export const sideBarInfo = {
   about:
-    "Final-year Electronics Engineering student with strong foundation in software development. Proficient in C++ programming and cross-platform mobile application development using Flutter. Experience building scalable systems with REST APIs and cloud integration. Recognized in national-level technical competitions including Smart India Hackathon and C2S challenge",
+    "Final-year Electronics Engineering student with strong foundation in software development. Proficient in C++ programming and cross-platform mobile application development using Flutter. Experience building scalable systems with REST APIs and cloud integration. Recognized in national-level technical competitions including Smart India Hackathon and C2S challenge.",
 
   contactDetails: [
     {
@@ -113,14 +114,14 @@ export const sideBarInfo = {
       href: "https://github.com/itskundanhere",
       icon: AiFillGithub,
     },
-    // {
-    //   title: "Portfolio link",
-    //   href: "https://Kundan2906.github.io",
-    //   icon: BiLinkAlt,
-    // },
     {
-      title: "Google Portfolio ''link shi krna hai'' ",
-      href: "https://google-portfolio.vercel.app/",
+      title: "Topmate Profile",
+      href: "https://topmate.io/kundan_singh17/",
+      icon: BiLinkAlt,
+    },
+    {
+      title: "Google Portfolio",
+      href: "https://google-portfolio-two.vercel.app/",
       icon: AiFillGoogleCircle,
     },
   ],
@@ -133,15 +134,15 @@ export const accordionData = [
   },
   {
     question: "What services does Kundan provide?",
-    answer: `Kundan provides fully responsive frontend applications with React Js, Full-stack aplications with MERN and Backend services with Node Js.`,
+    answer: `Kundan provides fully responsive mobile applications using Flutter, along with backend development services using Node.js and Firebase. He builds scalable, cross-platform apps with clean architecture and seamless user experience.`,
   },
   {
     question: "Is Kundan frontend or backend developer?",
-    answer: `Kundan is a full stack web developer, Experienced in developing full stack MERN apllications.`,
+    answer: `Kundan is a full-stack mobile app developer, experienced in building cross-platform applications using Flutter and Firebase, along with backend services using Node.js.`,
   },
   {
     question: "How much experience does Kundan have?",
-    answer: `Kundan has ${calculateExperience()} of experience in software industry.`,
+    answer: `Kundan is a fresher with strong foundational skills and hands-on project experience in software development.`,
   },
 ];
 
@@ -208,10 +209,10 @@ export const footerData = {
       href: "https://github.com/itskundanhere",
       icon: FaGithub,
     },
-    // {
-    //   href: "https://www.instagram.com/insta__jc/",
-    //   icon: FaInstagram,
-    // },
+    {
+      href: "https://topmate.io/kundan_singh17/",
+      icon: BiLinkAlt,
+    },
   ],
 };
 
@@ -475,6 +476,40 @@ export const contactDetails = [
     href: "https://www.linkedin.com/in/kundansingh17/",
   },
 ];
+
+
+export const educationData = {
+  info: "Here mentioned all the educational qualifications of Kundan.",
+  educationList: [
+    {
+      degree: "B.Tech in Electronics Engineering",
+      institute: "Rajkiya Engineering College Sonbhadra",
+      year: "Nov, 2022 - June, 2026 (Expected)",
+      specialization: "Data Structures and Algorithms, Operating Systems, Computer Networks, Digital System Design",
+      marks: "CGPA: 7.78/10",
+      logo: "/assets/rec.jpeg", // replace with your image path
+    },
+    {
+      degree: "Intermediate (12th)",
+      institute: "Saraswati Shishu Mandir Sr. Sec. School, Gorakhpur",
+      year: "2020 - 2021",
+      specialization: "Physics, Chemistry, Mathematics",
+      marks: "Percentage: 79.33%",
+      //achievements: "Top 5% of the batch",
+      logo: "/assets/ssm.jpg",
+    },
+    {
+      degree: "High School (10th)",
+      institute: "SVM Public School, Gorakhpur",
+      year: "2018 - 2019",
+      specialization: "Science and Mathematics",
+      marks: "Percentage: 80.50%",
+      //achievements: "District level science fair winner",
+      logo: "/assets/svm1.jpeg",
+    },
+  ],
+};
+
 
 export const contactData = {
   nameLabel: "Name *",
