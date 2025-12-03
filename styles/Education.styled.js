@@ -34,7 +34,7 @@ export const EducationItem = styled.div`
     
     h3 {
       margin: 0 0 0.5rem 0;
-      color: #f7f6f633;
+      color: #5a5656ff;
     }
 
     p {

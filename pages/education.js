@@ -8,7 +8,7 @@ const Education = () => {
     <div>
       <TitleDesc
         title="Kundan's Education"
-        desc="Here mentioned all the educational qualifications of Kundan."
+        desc="Kundan has pursued and completed the following educational qualifications, reflecting his continuous dedication to learning and growth."
       />
       <EducationContainer>
         <p>{educationData.info}</p>

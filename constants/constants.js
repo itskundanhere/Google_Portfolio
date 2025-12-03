@@ -479,7 +479,7 @@ export const contactDetails = [
 
 
 export const educationData = {
-  info: "Here mentioned all the educational qualifications of Kundan.",
+  info: "Kundan has pursued and completed the following educational qualifications, reflecting his continuous dedication to learning and growth.",
   educationList: [
     {
       degree: "B.Tech in Electronics Engineering",
