@@ -28,3 +28,22 @@ const Theme = ({ darkMode, children }) => (
 );
 
 export default Theme;
+export const lightTheme = {
+  card: "#ffffff",
+  border: "rgba(0,0,0,0.1)",
+  shadow: "0 4px 15px rgba(0, 0, 0, 0.1)",
+  shadowHover: "0 6px 18px rgba(0, 0, 0, 0.15)",
+  text: "#222",
+  textSecondary: "#555",
+  primary: "#0070f3",
+};
+
+export const darkTheme = {
+  card: "#1e1e1e",
+  border: "rgba(255,255,255,0.08)",
+  shadow: "0 4px 15px rgba(0,0,0,0.4)",
+  shadowHover: "0 6px 20px rgba(0,0,0,0.55)",
+  text: "#f5f5f5",
+  textSecondary: "#c7c7c7",
+  primary: "#4ea1ff",
+};

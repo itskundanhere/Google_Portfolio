@@ -1,5 +1,5 @@
 import { AiOutlineSearch } from "react-icons/ai";
-import { BiPencil } from "react-icons/bi";
+import { BiMedal, BiPencil } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiPhoneCall } from "react-icons/bi";
 import { MdOutlineLocationOn, MdSchool } from "react-icons/md";
@@ -43,6 +43,12 @@ export const navBar = [
     path: "/projects",
     icon: AiOutlineFundProjectionScreen,
   },
+  {
+  name: "Achievements",
+  path: "/achievements",
+  icon: BiMedal,
+},
+
   {
     name: "Contact",
     path: "/contact",
@@ -509,6 +515,56 @@ export const educationData = {
     },
   ],
 };
+
+export const achievementsData = [
+  {
+    title: "TCS CodeVita Round 2 Qualifier",
+    position: "Global Rank 312",
+    description:
+      "Achieved global rank 312 in TCS CodeVita Round 2, showcasing strong problem-solving skills and competitive programming abilities.",
+    year: "2024",
+  },
+  {
+    title: "Smart India Hackathon (SIH)",
+    position: "Finalist",
+    description:
+      "Selected as finalist for Smart India Hackathon for developing an innovative solution to a government problem statement.",
+    year: "2023",
+  },
+  {
+    title: "C2S Challenge",
+    position: "Top Performer",
+    description:
+      "Recognized as a top performer in the national-level C2S hardware-software co-design challenge.",
+    year: "2023",
+  },
+];
+
+export const volunteeringData = [
+  {
+    title: "Google Developer Group (GDG) — Faculty Advisor",
+    position: "Advisor",
+    description:
+      "Guiding students in technical events, hackathons, and community programs under Google Developer Groups.",
+    year: "2024 - Present",
+  },
+  {
+    title: "Google Developer Student Club (GDSC)",
+    position: "Core Team Member",
+    description:
+      "Contributed to organizing coding events, workshops, and managing the technical community.",
+    year: "2023 - 2024",
+  },
+  {
+    title: "College Technical Events",
+    position: "Organizer",
+    description:
+      "Coordinated coding contests, tech fests, and student learning programs to grow the tech culture on campus.",
+    year: "2022 - Present",
+  },
+];
+
+
 
 
 export const contactData = {
