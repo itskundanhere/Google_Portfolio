@@ -136,7 +136,7 @@ export const sideBarInfo = {
 export const accordionData = [
   {
     question: "What skills does Kundan have?",
-    answer: `Kundan is well-versed in Javascript, React Js, Redux, CSS 3, HTML 5, Tailwind, Next Js, React Native, Node Js, Express Js, MongoDb.`,
+    answer: `Kundan is well-versed in Dart, Flutter, Node Js, Express Js, MongoDb, Firebase, Git & GitHub.`,
   },
   {
     question: "What services does Kundan provide?",
@@ -154,28 +154,28 @@ export const accordionData = [
 
 export const projectVideos = [
   {
-    heading: "Mini Laptop Implementation using React Js.",
+    heading: "AstroJet 'A game using Flutter + Flame' ",
     platform: `Linkedin.`,
     author: `Kundan Singh`,
-    image: `/assets/laptopdesign.png`,
+    image: `/assets/astrojet.png`,
     date: `1-Mar-2022`,
-    link: `https://www.linkedin.com/feed/update/urn:li:ugcPost:6904281486057373696/`,
+    link: `https://www.linkedin.com/posts/kundansingh17_flutter-flameengine-gamedev-activity-7348646969763954692-lM4e?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx4sUMBgSVKVisEa-FcygKhVWR5dwjBOo0`,
   },
   {
-    heading: "House Design with pure CSS [2022].",
+    heading: "VoteNet 'Voting with secure verification' ",
     platform: `Linkedin.`,
     author: `Kundan Singh`,
-    image: `/assets/housedesign.png`,
+    image: `/assets/votenet.png`,
     date: `10-Jan-2022`,
-    link: `https://www.linkedin.com/posts/Kundan-choudhary-72444518b_css-animation-perspective3d-activity-6886298154199773184-C74d`,
+    link: `https://www.linkedin.com/posts/kundansingh17_votenet-techforgood-electiontech-activity-7315981138148159488-inWu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx4sUMBgSVKVisEa-FcygKhVWR5dwjBOo0`,
   },
   {
-    heading: "IPL-2022 Web Application using React Js.",
+    heading: "HourlyVibes 'A regular used news app' ",
     platform: `Linkedin.`,
     author: `Kundan Singh`,
-    image: `/assets/ipl2022.png`,
+    image: `/assets/hourlyvibes.png`,
     date: `26-Mar-2022`,
-    link: `https://www.linkedin.com/feed/update/urn:li:activity:6913334580070498304/`,
+    link: `https://www.linkedin.com/posts/kundansingh17_flutter-mobileappdevelopment-hourlyvibes-activity-7418643907674128385-PGmv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx4sUMBgSVKVisEa-FcygKhVWR5dwjBOo0`,
   },
 ];
 
@@ -199,7 +199,7 @@ export const relatedsearch = [
 ];
 
 export const footerData = {
-  name: "Kundn Singh",
+  name: "Kundan Singh",
   year: new Date().getFullYear(),
   darkTheme: "Dark theme: ",
   socialLinks: [
@@ -223,62 +223,54 @@ export const footerData = {
 };
 
 export const skillsData = {
-  info: "Kundan loves to develop innovative web apps using new technologies, He is keen to gain experience, enhance and upgrade his skills, He enjoys building everything from small sites and landing pages to rich interactive web apps. He loves creating visually stunning, unique and responsive web apps.",
+  info: "Kundan loves to develop innovative Mobile apps using new technologies, He is keen to gain experience, enhance and upgrade his skills, He enjoys building everything from small sites and landing pages to rich interactive web apps. He loves creating visually stunning, unique and responsive mobile apps.",
   skills: [
     {
       title: "Frontend Skills",
       description:
-        "JavaScript, React Js, Redux, React Native, Next Js, Html5, CSS3,Tailwind Css, Material Ui, Bootstrap5, Sass and Styled Component.",
+        "Dart, Flutter, Html5, Css3, Tailwind Css, Flame.",
     },
     {
       title: "Backend Skills",
       description:
-        "Node Js, Express Js, Mongo Db, Next Js, Postman and Jwt-Authorization.",
+        "Firebase, Node Js, Express Js, Mongo Db, Next Js, Postman and Jwt-Authorization.",
     },
   ],
 
   skillsIcons: [
     {
-      title: "React Js",
-      href: "https://reactjs.org/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      shadowColor: "#61DAFB",
+      title: "Dart",
+      href: "https://dart.dev/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+      shadowColor: "#0175C2",
     },
+    {
+      title: "Flutter",
+      href: "https://flutter.dev/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+      shadowColor: "#02569B",
+    },
+{
+      title: "Html 5",
+      href: "https://www.w3.org/html/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+      shadowColor: "#f97316",
+    },
+    
     {
       title: "JavaScript",
       href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       shadowColor: "#F0DB4F",
     },
-    {
-      title: "Redux",
-      href: "https://redux.js.org",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
-      shadowColor: "#9B59B6",
-    },
+
     {
       title: "Css 3",
       href: "https://www.w3schools.com/css/",
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       shadowColor: "#3b82f6",
     },
-    {
-      title: "Next Js",
-      href: "https://nextjs.org/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-    },
-    {
-      title: "React Native",
-      href: "https://reactnative.dev/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      shadowColor: "#61DAFB",
-    },
-    {
-      title: "Html 5",
-      href: "https://www.w3.org/html/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-      shadowColor: "#f97316",
-    },
+
     {
       title: "Tailwind Css",
       href: "https://tailwindcss.com/",
@@ -292,16 +284,10 @@ export const skillsData = {
       shadowColor: "#1C7FB6",
     },
     {
-      title: "Bootstrap 5",
-      href: "https://getbootstrap.com",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-      shadowColor: "#7C12F8",
-    },
-    {
-      title: "Sass",
-      href: "https://sass-lang.com",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-      shadowColor: "#CB6699",
+      title: "Flame",
+      href: "https://flame-engine.org/",
+      src: "https://flame-engine.org/assets/images/corner-logo.png",
+      shadowColor: "#FF4500",
     },
     {
       title: "Node Js",
@@ -327,10 +313,10 @@ export const skillsData = {
       shadowColor: "#F34F29",
     },
     {
-      title: "TypeScript",
-      href: "https://www.typescriptlang.org/",
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      shadowColor: "#007ACC",
+      title: "Firebase",
+      href: "https://firebase.google.com/",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg",
+      shadowColor: "#fde005",
     },
     {
       title: "Styled Components",
@@ -349,111 +335,114 @@ export const skillsData = {
 
 export const projectsData = [
   {
-    title: "Laptop with React Js and Tailwind CSS",
-    image: "/assets/laptopdesign.png",
+    title: "AstroJet 'A game using Flutter + Flame'",
+    image: "/assets/astrojet.png",
     description: [
-      "Designed and developed a laptop with Power on, Sign In with password or finger scanner, Restart, Sleep and Shut down functionality using <b>React JS</b> and <b>Tailwind CSS</b>.",
+      "Developed AstroJet, an arcade-style space shooter game with a <b>color-customizable airplane</b>, smooth controls, responsive movement, and accurate collision detection to ensure engaging and balanced gameplay.",
+      "Implemented <b>laser-based asteroid combat mechanics</b> with progressive difficulty and dynamic <b>power-ups</b> including Bombs for area damage, Shields for temporary protection, and Laser Boosters for enhanced firepower.",
+      "Enhanced user experience by integrating <b>immersive background music and real-time sound effects</b>, creating an engaging and polished gaming environment."
     ],
     videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:ugcPost:6904281486057373696/",
-    liveDemo: "https://Kundan2906.github.io/laptop-design/",
-    sourceCode: "https://github.com/Kundan2906/laptop-design",
+      "https://www.linkedin.com/posts/kundansingh17_flutter-flameengine-gamedev-activity-7348646969763954692-lM4e?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx4sUMBgSVKVisEa-FcygKhVWR5dwjBOo0",
+    liveDemo: "https://astro-jet-two.vercel.app/",
+    sourceCode: "https://github.com/itskundanhere/AstroJet",
   },
   {
-    title: "House Design with CSS",
-    image: "/assets/housedesign.png",
+    title: "VoteNet 'Voting with secure verification'",
+    image: "/assets/votenet.png",
     description: [
-      "Designed and developed front-view of my house with pure <b>CSS 3</b>, <b>Html 5</b> and <b>JavaScript</b>.",
-      "User can open and close Gate, Windows and Slide of a House, User can also rotate a house in 360°.",
+      "Developed VoteNet, a secure and fast digital voting verification system aimed at modernizing elections by reducing queues, eliminating manual errors, and preventing voter fraud through <b>Aadhaar-based authentication</b>.",
+      "Implemented instant <b>QR-code verification</b> with real-time duplicate vote prevention using Firebase, achieving <b>voter verification in under 5 seconds</b> and ensuring one voter, one vote",
+      "Built a cross-platform Flutter application with Firebase (Auth, Firestore, Realtime DB) support, featuring offline-ready functionality for low-connectivity areas and enabling transparent, scalable, and trustworthy voting processes.",
     ],
     videoDemo:
-      "https://www.linkedin.com/posts/Kundan-choudhary-72444518b_css-animation-perspective3d-activity-6886298154199773184-C74d",
-    liveDemo: "https://Kundan2906.github.io/My-house.github.io/house.html",
-    sourceCode: "https://github.com/Kundan2906/My-house.github.io",
+      "https://www.youtube.com/watch?v=XBJV_4JfYMU",
+    //liveDemo: "https://Kundan2906.github.io/My-house.github.io/house.html",
+    sourceCode: "https://github.com/itskundanhere/VoteNet/tree/my-new-branch",
   },
   {
-    title: "IPL-2022 Web Application",
-    image: "/assets/ipl2022.png",
+    title: "HourlyVibes 'A regular used news app'",
+    image: "/assets/hourlyvibes.png",
     description: [
-      "Designed and developed a web application that provides the live scorecard of IPL-2022 fetched from <b>RESTful Cricket API</b>.",
-      "User can create his/her playing 11 team for each franchise, User can also watch the best of IPL highlights.",
-      "Converted to PWA that can be installed and run on mobile as a native app.",
-      "Deployed it to Netlify.",
-      "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>CSS 3</b>, <b>Material Ui</b>, <b>Local Storage</b>.",
+      "Developed HourlyVibes, a <b>Flutter-based mobile news application</b> delivering a smooth, responsive, and engaging reading experience with <b>category-wise</b> news including Business, Entertainment, General, Science, and Sports.",
+      "Implemented breaking news with smooth sliding views and automatically updated trending news displayed through a <b>clean, card-based UI</b>, enabling seamless access to full articles on tap.",
+      "Strengthened expertise in Flutter UI/UX design, API integration, state management, and <b>real-time content handling</b>, resulting in a <b>user-friendly and scalable news application</b>.",
+      // "Deployed it to Netlify.",
+      // "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>CSS 3</b>, <b>Material Ui</b>, <b>Local Storage</b>.",
     ],
     videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6913334580070498304/",
-    liveDemo: "https://ipl-2022.netlify.app/",
-    sourceCode: "https://github.com/Kundan2906/IPL-2022-App",
+      "https://www.linkedin.com/posts/kundansingh17_flutter-mobileappdevelopment-hourlyvibes-activity-7418643907674128385-PGmv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx4sUMBgSVKVisEa-FcygKhVWR5dwjBOo0",
+    //liveDemo: "https://ipl-2022.netlify.app/",
+    sourceCode: "https://github.com/itskundanhere/HourlyVibes",
   },
-  {
-    title: "Full E-Commerce Web Application",
-    image: "/assets/iconstore.png",
-    description: [
-      "Designed and developed a Full E-Commerce web application with MERN Stack that can be used by users, sellers, and Admin.",
-      "Uses json web token for security ( Authorization ), Uses Geo-location for auto-filling shipping address of user.",
-      "Uses Twilio message notification to registered mobile number on confirmation of orders.",
-      "Uses Paypal payment gateway integration for demo virtual payment of orders.",
-      "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>Redux Thunk</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Html</b>, <b>CSS</b>, <b>Bootstrap 5</b>, <b>MongoDB</b>.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6842941644195672064/",
-    liveDemo: "",
-    sourceCode: "https://github.com/Kundan2906/Final-Ecommerce-Project",
-  },
-  {
-    title: "Ice Mart Mobile Application",
-    image: "/assets/icemart.png",
-    description: [
-      "Designed and developed an Ice Mart Mobile App with MERNN Stack that can be used by users, and Admin.",
-      "Uses json web token for security, Authorization.",
-      "Uses Google-maps for location of user.",
-      "Uses Google pay payment gateway integration for demo virtual payment of orders.",
-      "Technologies used: <b>JavaScript</b>, <b>React Native</b>, <b>Redux Toolkit</b>, <b>Node Js</b>, <b>Express Js</b>, <b>MongoDB</b>.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6941967333682737152/",
-    liveDemo: "",
-    sourceCode: "https://github.com/Kundan2906/Ice-Mart",
-  },
-  {
-    title: "Real-time Online Chat Application",
-    image: "/assets/chatapp.png",
-    description: [
-      "Designed and developed a Real-time Online Chat Application with react and stream that can be used for online communication.",
-      "Server deployed to Heroku and Client deployed to Netlify.",
-      "Responsive and converted into PWA(Native app).",
-      "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>Stream</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Html</b>, <b>CSS</b>.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6877141876273762304/",
-    liveDemo: "",
-    sourceCode: "https://github.com/Kundan2906/Lets-Chat-app",
-  },
-  {
-    title: "Movie Info Application",
-    image: "/assets/movieapp.png",
-    description: [
-      "Designed and developed a Movie info app with MERN Stack with third-party APIs for fetching movies record, Uses <b>OMDb RESTful</b> web service.",
-      "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Html</b>, <b>CSS</b>, <b>Bootstrap 5</b>, <b>MongoDB</b>.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6842939354764201984/",
-    liveDemo: "",
-    sourceCode: "",
-  },
-  {
-    title: "All Projects Compilation",
-    image: "/assets/allProjects.png",
-    description: [
-      "Check here my all projects in one video compilation.",
-      "Technologies used: <b>JavaScript</b>, <b>React Js</b>, <b>Redux</b>, <b>React Native</b>, <b>Next Js</b>, <b>Html5</b>, <b>CSS3</b>, <b>Tailwind Css</b>, <b>Material Ui</b>, <b>Bootstrap5</b>, <b>Sass</b>, <b>Styled Components</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Mongo Db</b>, <b>Postman</b> and <b>Jwt-Authorization</b>.",
-    ],
-    videoDemo:
-      "https://www.linkedin.com/feed/update/urn:li:activity:6962305778502254592/",
-    liveDemo: "",
-    sourceCode: "",
-  },
+  // {
+  //   title: "Full E-Commerce Web Application",
+  //   image: "/assets/iconstore.png",
+  //   description: [
+  //     "Designed and developed a Full E-Commerce web application with MERN Stack that can be used by users, sellers, and Admin.",
+  //     "Uses json web token for security ( Authorization ), Uses Geo-location for auto-filling shipping address of user.",
+  //     "Uses Twilio message notification to registered mobile number on confirmation of orders.",
+  //     "Uses Paypal payment gateway integration for demo virtual payment of orders.",
+  //     "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>Redux Thunk</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Html</b>, <b>CSS</b>, <b>Bootstrap 5</b>, <b>MongoDB</b>.",
+  //   ],
+  //   videoDemo:
+  //     "https://www.linkedin.com/feed/update/urn:li:activity:6842941644195672064/",
+  //   liveDemo: "",
+  //   sourceCode: "https://github.com/Kundan2906/Final-Ecommerce-Project",
+  // },
+  // {
+  //   title: "Ice Mart Mobile Application",
+  //   image: "/assets/icemart.png",
+  //   description: [
+  //     "Designed and developed an Ice Mart Mobile App with MERNN Stack that can be used by users, and Admin.",
+  //     "Uses json web token for security, Authorization.",
+  //     "Uses Google-maps for location of user.",
+  //     "Uses Google pay payment gateway integration for demo virtual payment of orders.",
+  //     "Technologies used: <b>JavaScript</b>, <b>React Native</b>, <b>Redux Toolkit</b>, <b>Node Js</b>, <b>Express Js</b>, <b>MongoDB</b>.",
+  //   ],
+  //   videoDemo:
+  //     "https://www.linkedin.com/feed/update/urn:li:activity:6941967333682737152/",
+  //   liveDemo: "",
+  //   sourceCode: "https://github.com/Kundan2906/Ice-Mart",
+  // },
+  // {
+  //   title: "Real-time Online Chat Application",
+  //   image: "/assets/chatapp.png",
+  //   description: [
+  //     "Designed and developed a Real-time Online Chat Application with react and stream that can be used for online communication.",
+  //     "Server deployed to Heroku and Client deployed to Netlify.",
+  //     "Responsive and converted into PWA(Native app).",
+  //     "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>Stream</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Html</b>, <b>CSS</b>.",
+  //   ],
+  //   videoDemo:
+  //     "https://www.linkedin.com/feed/update/urn:li:activity:6877141876273762304/",
+  //   liveDemo: "",
+  //   sourceCode: "https://github.com/Kundan2906/Lets-Chat-app",
+  // },
+  // {
+  //   title: "Movie Info Application",
+  //   image: "/assets/movieapp.png",
+  //   description: [
+  //     "Designed and developed a Movie info app with MERN Stack with third-party APIs for fetching movies record, Uses <b>OMDb RESTful</b> web service.",
+  //     "Technologies used: <b>JavaScript</b>, <b>React JS</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Html</b>, <b>CSS</b>, <b>Bootstrap 5</b>, <b>MongoDB</b>.",
+  //   ],
+  //   videoDemo:
+  //     "https://www.linkedin.com/feed/update/urn:li:activity:6842939354764201984/",
+  //   liveDemo: "",
+  //   sourceCode: "",
+  // },
+  // {
+  //   title: "All Projects Compilation",
+  //   image: "/assets/allProjects.png",
+  //   description: [
+  //     "Check here my all projects in one video compilation.",
+  //     "Technologies used: <b>JavaScript</b>, <b>React Js</b>, <b>Redux</b>, <b>React Native</b>, <b>Next Js</b>, <b>Html5</b>, <b>CSS3</b>, <b>Tailwind Css</b>, <b>Material Ui</b>, <b>Bootstrap5</b>, <b>Sass</b>, <b>Styled Components</b>, <b>Node Js</b>, <b>Express Js</b>, <b>Mongo Db</b>, <b>Postman</b> and <b>Jwt-Authorization</b>.",
+  //   ],
+  //   videoDemo:
+  //     "https://www.linkedin.com/feed/update/urn:li:activity:6962305778502254592/",
+  //   liveDemo: "",
+  //   sourceCode: "",
+  // },
 ];
 
 export const contactDetails = [
@@ -518,49 +507,53 @@ export const educationData = {
 
 export const achievementsData = [
   {
-    title: "TCS CodeVita Round 2 Qualifier",
-    position: "Global Rank 312",
+    title: "TCS CodeVita (Season 13)",
     description:
-      "Achieved global rank 312 in TCS CodeVita Round 2, showcasing strong problem-solving skills and competitive programming abilities.",
-    year: "2024",
+      "Achieved Rank 312 (Round 2) and Rank 5100 (Round 1) in an international coding competition, showcasing algorithmic thinking and coding proficiency on a global platform.",
+    year: "2025",
   },
   {
-    title: "Smart India Hackathon (SIH)",
-    position: "Finalist",
+    title: "Chips to Startup (C2S) Hackathon Challenge",
     description:
-      "Selected as finalist for Smart India Hackathon for developing an innovative solution to a government problem statement.",
-    year: "2023",
+      "Secured AIR 10 in the Digital India RISC-V (DIR-V) Grand Challenge, demonstrating excellence in processor architecture, embedded systems, and innovative hardware solutions at a national level.",
+    year: "2025",
   },
   {
-    title: "C2S Challenge",
-    position: "Top Performer",
+    title: "Smart India Hackathon",
     description:
-      "Recognized as a top performer in the national-level C2S hardware-software co-design challenge.",
-    year: "2023",
+      "Won 3× college-level internal hackathons for the Smart India Hackathon, demonstrating strong problem-solving skills, innovation, and effective team collaboration.",
+    year: "2023, 24, 25",
   },
 ];
 
 export const volunteeringData = [
   {
-    title: "Google Developer Group (GDG) — Faculty Advisor",
-    position: "Advisor",
+    title: "Training & Placement Cell - REC Sonbhadra",
+    position: "Student Coordinator",
     description:
-      "Guiding students in technical events, hackathons, and community programs under Google Developer Groups.",
-    year: "2024 - Present",
+      "Successfully organized 15+ technical events engaging 350+ participants and handled company management during campus placement activities.",
+    year: "2023 - Present",
   },
   {
-    title: "Google Developer Student Club (GDSC)",
-    position: "Core Team Member",
+    title: "Institute of Electrical and Electronics Engineers (IEEE) - REC Sonbhadra",
+    position: "Vice Chairperson",
     description:
-      "Contributed to organizing coding events, workshops, and managing the technical community.",
-    year: "2023 - 2024",
+      "Held the role of Vice Chairperson, IEEE, driving hackathons and seminars, managing member coordination, and mentoring teams for successful event delivery.",
+    year: "Nov, 2024 - Jan, 2026",
   },
   {
-    title: "College Technical Events",
-    position: "Organizer",
+    title: "Google Developer Groups On Campus (GDGOC) - REC Sonbhadra",
+    position: "Co-Lead",
     description:
-      "Coordinated coding contests, tech fests, and student learning programs to grow the tech culture on campus.",
-    year: "2022 - Present",
+      "Conducted 10+ structured workshops on networking and cloud technologies, driving practical learning initiatives, and participated in tech fests and DevFests to expand technical exposure and professional networking.",
+    year: "Sep, 2024 - Oct, 2025",
+  },
+   {
+    title: "Atal Tinkering Lab (ATL) - S.S.M Sr. Sec. School, Gorakhpur",
+    position: "Student Volunteer",
+    description:
+      "Contributed as an ATL Volunteer during Class 11th and 12th, working on project development and showcasing innovations at district-level events, including Gorakhpur Mahotsav and school exhibitions.",
+    year: "2019 - 2021",
   },
 ];
 

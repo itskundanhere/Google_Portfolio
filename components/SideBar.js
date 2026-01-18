@@ -27,7 +27,7 @@ const SideBar = () => {
       </ProfileContainer>
       <About>{sideBarInfo.about}</About>
       <ResumeWrapper
-        href="/assets/KundanSingh_Resume.pdf"
+        href="/assets/final_resume_kundan singh.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >

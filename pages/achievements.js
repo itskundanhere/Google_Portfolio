@@ -29,7 +29,7 @@ export default function AchievementsPage() {
               <AchievementsItem key={title}>
                 <div className="details">
                   <h3>{title}</h3>
-                  <p><strong>Position:</strong> {position}</p>
+
                   <p><strong>Year:</strong> {year}</p>
                   <p><strong>Description:</strong> {description}</p>
                 </div>
