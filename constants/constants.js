@@ -167,7 +167,7 @@ export const projectVideos = [
     author: `Kundan Singh`,
     image: `/assets/votenet.png`,
     date: `10-Jan-2022`,
-    link: `https://www.linkedin.com/posts/kundansingh17_votenet-techforgood-electiontech-activity-7315981138148159488-inWu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADx4sUMBgSVKVisEa-FcygKhVWR5dwjBOo0`,
+    link: `https://www.youtube.com/watch?v=XBJV_4JfYMU`,
   },
   {
     heading: "HourlyVibes 'A regular used news app' ",
