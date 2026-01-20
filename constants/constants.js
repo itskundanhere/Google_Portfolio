@@ -127,7 +127,7 @@ export const sideBarInfo = {
     },
     {
       title: "Google Portfolio",
-      href: "https://google-portfolio-two.vercel.app/",
+      href: "https://google-portfolio-3ty2.vercel.app/",
       icon: AiFillGoogleCircle,
     },
   ],
