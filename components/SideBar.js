@@ -29,6 +29,7 @@ const SideBar = () => {
       <ResumeWrapper
         href="/assets/finalresumekundan.pdf"
         target="_blank"
+        style={{ objectFit: "cover" }}
         rel="noopener noreferrer"
       >
         {`Kundan's Resume`}
